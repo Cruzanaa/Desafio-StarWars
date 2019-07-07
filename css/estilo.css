@@ -23,9 +23,12 @@ body{
 .planetas{
     display: flex;
 }
+.planeta{
+    
+}
 .hutta{
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     background-image: url(../img/hutta.png);
     background-repeat:no-repeat;
     background-size: cover;
@@ -34,7 +37,23 @@ body{
     -webkit-transform: rotate(45deg);
 }
 
-.taris{
+.animate {
+    animation-name: girando;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+ 
+ @keyframes girando {
+    from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+/*.taris{
     width: 180px;
     height: 180px;
     background-image: url(../img/Taris.png);
@@ -48,7 +67,7 @@ body{
     background-image: url(../img/balmorra.png);
     background-repeat:no-repeat;
     background-size: cover;
-}
+}*/
 
 
 
