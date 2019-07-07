@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+/*--- Informações ---*/
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#titulo{
+    color:red;
+    text-align: center;
+    margin-top: 8vh;
+}
+/*-- PLANETAS --*/
+#hutta{
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/hutta.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    transition: 5s linear;
+    transform: rotate(360deg);
+}
+#hutta:hover{
+    
+}
+
+
+
+
+
+/*-- BOTÃO --*/
+.botao{
+    border: 0;
+    border-radius: 4px;
+    background: white;
+    padding: 10px;
+}
