@@ -15,24 +15,40 @@ body{
 }
 
 #titulo{
-    color:red;
+    color:white;
     text-align: center;
     margin-top: 8vh;
 }
 /*-- PLANETAS --*/
-#hutta{
+.planetas{
+    display: flex;
+}
+.hutta{
     width: 180px;
     height: 180px;
     background-image: url(../img/hutta.png);
     background-repeat:no-repeat;
     background-size: cover;
-    transition: 5s linear;
-    transform: rotate(360deg);
-}
-#hutta:hover{
-    
+    transition: 4s linear; 
+   /* transform: rotate(45deg);*/
+    -webkit-transform: rotate(45deg);
 }
 
+.taris{
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/Taris.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.balmorra{
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/balmorra.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 
 
 
