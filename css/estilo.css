@@ -31,6 +31,9 @@ body{
     background-size: cover;
 }
 
+.hoth{
+    background-image: url(../img/hoth.png);
+}
 .hutta{
     background-image: url(../img/hutta.png);  
 }
@@ -51,9 +54,6 @@ body{
 }
 .dromund{
     background-image: url(../img/dromund.png);
-}
-.hoth{
-    background-image: url(../img/hoth.png);
 }
 .nar{
     background-image: url(../img/nar-shaddaa.png);
