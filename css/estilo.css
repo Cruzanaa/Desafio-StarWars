@@ -22,26 +22,70 @@ body{
 /*-- PLANETAS --*/
 .planetas{
     display: flex;
+    flex-wrap: wrap;
 }
 .planeta{
-    
-}
-.hutta{
     width: 140px;
     height: 140px;
-    background-image: url(../img/hutta.png);
     background-repeat:no-repeat;
     background-size: cover;
-    transition: 4s linear; 
-   /* transform: rotate(45deg);*/
-    -webkit-transform: rotate(45deg);
 }
+
+.hutta{
+    background-image: url(../img/hutta.png);  
+}
+.taris{
+    background-image: url(../img/taris.png);
+}
+.balmorra{
+    background-image: url(../img/balmorra.png);
+}
+.belsavts{
+    background-image: url(../img/belsavts.png);
+}
+.corellia{
+    background-image: url(../img/corellia.png);
+}
+.coruscant{
+    background-image: url(../img/coruscant.png);
+}
+.dromund{
+    background-image: url(../img/dromund.png);
+}
+.hoth{
+    background-image: url(../img/hoth.png);
+}
+.nar-shaddaa{
+    background-image: url(../img/nar-shaddaa.png);
+}
+.ilum{
+    background-image: url(../img/ilum.png);
+}
+.korriban{
+    background-image: url(../img/korriban.png);
+}
+.ord-mantell{
+    background-image: url(../img/ord-mantell.png);
+}
+.quesh{
+    background-image: url(../img/quesh.png);
+}
+.tatooine{
+    background-image: url(../img/tatooine.png);
+}
+.tython{
+    background-image: url(../img/tython.png);
+}
+.voss{
+    background-image: url(../img/voss.png);
+}
+
 
 .animate {
     animation-name: girando;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-     animation-timing-function: linear;
+    animation-timing-function: linear;
  }
  
  @keyframes girando {
@@ -52,24 +96,6 @@ body{
      transform: rotate(360deg);
    }
  }
-
-/*.taris{
-    width: 180px;
-    height: 180px;
-    background-image: url(../img/Taris.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-
-.balmorra{
-    width: 180px;
-    height: 180px;
-    background-image: url(../img/balmorra.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-}*/
-
-
 
 
 /*-- BOTÃO --*/
