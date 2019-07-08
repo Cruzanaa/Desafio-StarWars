@@ -55,7 +55,7 @@ body{
 .hoth{
     background-image: url(../img/hoth.png);
 }
-.nar-shaddaa{
+.nar{
     background-image: url(../img/nar-shaddaa.png);
 }
 .ilum{
@@ -64,7 +64,7 @@ body{
 .korriban{
     background-image: url(../img/korriban.png);
 }
-.ord-mantell{
+.ord{
     background-image: url(../img/ord-mantell.png);
 }
 .quesh{
@@ -79,7 +79,6 @@ body{
 .voss{
     background-image: url(../img/voss.png);
 }
-
 
 .animate {
     animation-name: girando;
@@ -99,7 +98,11 @@ body{
 
 
 /*-- BOTÃO --*/
-.botao{
+.Btn{
+    display: flex;
+    justify-content: center;
+}
+.BotaoPlaneta{
     border: 0;
     border-radius: 4px;
     background: white;
