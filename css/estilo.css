@@ -39,48 +39,46 @@ body{
 .yavin{
     background-image: url(../img/yavin.png);  
 }
-.taris{
-    background-image: url(../img/taris.png);
+.hoth{
+    background-image: url(../img/hoth.png);
 }
-.balmorra{
-    background-image: url(../img/balmorra.png);
+.dagobah{
+    background-image: url(../img/dagobah.png);
 }
-.belsavts{
-    background-image: url(../img/belsavts.png);
+.endor{
+    background-image: url(../img/endor.png);
 }
-.corellia{
-    background-image: url(../img/corellia.png);
+.naboo{
+    background-image: url(../img/naboo.png);
 }
 .coruscant{
     background-image: url(../img/coruscant.png);
 }
-.dromund{
-    background-image: url(../img/dromund.png);
+.kamino{
+    background-image: url(../img/kamino.png);
 }
-.nar{
-    background-image: url(../img/nar-shaddaa.png);
+.mustafar{
+    background-image: url(../img/mustafar.png);
 }
-.ilum{
-    background-image: url(../img/ilum.png);
+.utapau{
+    background-image: url(../img/utapau.png);
 }
-.korriban{
-    background-image: url(../img/korriban.png);
+.kashyyk{
+    background-image: url(../img/kashyyk.png);
+}
+.saleucami{
+    background-image: url(../img/saleucami.png);
+}
+.rodia{
+    background-image: url(../img/rodia.png);
 }
 .ord{
-    background-image: url(../img/ord-mantell.png);
+    background-image: url(../img/ord.png);
 }
-.quesh{
-    background-image: url(../img/quesh.png);
+.corellia{
+    background-image: url(../img/corellia.png);
 }
-.tatooine{
-    background-image: url(../img/tatooine.png);
-}
-.tython{
-    background-image: url(../img/tython.png);
-}
-.voss{
-    background-image: url(../img/voss.png);
-}
+
 
 .animate {
     animation-name: girando;
