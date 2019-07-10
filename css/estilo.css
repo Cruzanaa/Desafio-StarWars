@@ -47,7 +47,7 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
 }
-
+/*--
 .alderaan{
     background-image: url(../img/alderaan.png);
 }
@@ -98,7 +98,7 @@ body{
 }
 .corellia{
     background-image: url(../img/corellia.png);
-}
+}--*/
 
 
 .animate {
