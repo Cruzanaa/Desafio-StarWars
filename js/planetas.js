@@ -1,7 +1,7 @@
 var Planetas = document.querySelectorAll('.planetas');
 
 Planetas = [{
-    nome: 'alderaan',
+    nome: 'Alderaan',
     population: '20000000000',
     clima: 'temperate',
     terreno: 'grasslands / mountains', 
@@ -73,16 +73,24 @@ var botaoRandom = document.querySelector('#BotaoRandom');
 
 botaoRandom.addEventListener('click', criarRandom);
 
+var aleatorio= Math.floor(Math.random()*20); /*-- criando aleatório --*/
+
 
 function criarRandom(evento){
-    let Aletorio;
-  for( var SorteioPlanetas = 0; SorteioPlanetas > Planetas.length; SorteioPlanetas ++){
-  
-  }
+
+    planetaAleatorio = Planetas[aleatorio];
+    alert(planetaAleatorio['nome']);
 }
 
 /*var random = Math.floor(Math.random() * 10) + 1;
 console.log(random);
 
   document.getElementsByName('.planetas').innerHTML=Math.floor(Math.random()*20);
-    console.log(planetas);*/
+    console.log(planetas);
+    
+     for( var SorteioPlanetas = 0; SorteioPlanetas > Planetas.length; SorteioPlanetas ++){
+window.location.href = "http://seusite.com"
+  
+  }*/
+
+    
