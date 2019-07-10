@@ -96,7 +96,6 @@ var botaoRandom = document.querySelector('#BotaoRandom');
 botaoRandom.addEventListener('click', criarRandom);
 
 
-
 function criarRandom(){
     aleatorio= Math.floor(Math.random()*11); /*-- criando aleatório --*/
 
