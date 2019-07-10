@@ -76,7 +76,7 @@ botaoRandom.addEventListener('click', criarRandom);
 var aleatorio= Math.floor(Math.random()*20); /*-- criando aleatório --*/
 
 
-function criarRandom(evento){
+function criarRandom(){
 
     planetaAleatorio = Planetas[aleatorio];
     alert(planetaAleatorio['nome']);
