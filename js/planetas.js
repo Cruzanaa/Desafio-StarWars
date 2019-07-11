@@ -104,14 +104,15 @@ function criarRandom(){
 
 
 var botaoInfo = document.querySelector('.infoPlanetas');
-botaoInfo.addEventListener('click', mostrarInfo)
+
+botaoInfo.addEventListener('click', mostrarInfo);
+
   function mostrarInfo(){
     document.getElementById('nome').innerHTML = Planetas.find[11],[nome];
     document.getElementById('clima').innerHTML = Planetas.find[clima];
     document.getElementById('terreno').innerHTML = Planetas.find[terreno];
     document.getElementById('filmes').innerHTML = Planetas.find[filmes];
 }
-
 
  /*function inforPlanetas(){
     var PlanetasInfo = document.querySelector('.InfoPlanetas');
