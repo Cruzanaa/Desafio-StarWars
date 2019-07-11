@@ -1,6 +1,6 @@
 var Planetas = document.querySelectorAll('.planetas');
 
-var Planetas = [{
+Planetas = [{
     nome: 'Alderaan',
     id: '1',
     population: '20000000000',
@@ -97,11 +97,20 @@ botaoRandom.addEventListener('click', criarRandom);
 
 
 function criarRandom(){
-    aleatorio= Math.floor(Math.random()*11); /*-- criando aleatório --*/
-
+    aleatorio= Math.floor(Math.random()*11);  /*--criando aleatório--*/
     planetaAleatorio = Planetas[aleatorio];
-    alert(planetaAleatorio['nome']);
+    alert(planetaAleatorio['nomes']);
+   //s location.href="planetainfo.html";
+    
 }
+
+
+ /*function inforPlanetas(){
+    var PlanetasInfo = document.querySelector('.InfoPlanetas');
+        PlanetasInfo = document.createElement('p');
+        PlanetasInfo.classList.add('texto-info');
+        
+    }*/
 
 
         function printPlanet () {
