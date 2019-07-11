@@ -1,20 +1,21 @@
+
 // Get the modal
 var modal = document.getElementById("Modal");
 
 // Get the button that opens the modal
-var btnModal = document.querySelector('.BotaoPlaneta');
-//var btnModal = document.getElementById("myBtn");
+var botaoModal = document.querySelector('.BotaoPlaneta');
+//var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var fechar = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btnModal.onclick = function() {
+botaoModal.onclick = function() {
   modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+fechar.onclick = function() {
   modal.style.display = "none";
 }
 

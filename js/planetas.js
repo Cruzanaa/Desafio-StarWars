@@ -3,7 +3,7 @@ var Planetas = document.querySelectorAll('.planetas');
 Planetas = [{
     nome: 'Alderaan',
     id: '1',
-    population: '20000000000',
+    populacao: '20000000000',
     clima: 'temperate',
     terreno: 'grasslands / mountains', 
     filmes: '6 e 1',
@@ -11,7 +11,7 @@ Planetas = [{
 },{
     nome: 'Yavin IV',
     id: '2',
-    population: '1000',
+    populacao: '1000',
     clima: 'temperate / tropical',
     terreno: 'grasslands / mountains', 
     filmes: '6 e 1', 
@@ -19,7 +19,7 @@ Planetas = [{
 },{
     nome: 'Hoth',
     id: '3',
-    population: 'unknown',
+    populacao: 'unknown',
     clima: 'frozen',
     terreno: 'tundra/ ice caves / mountain ranges', 
     filmes: '2',
@@ -27,7 +27,7 @@ Planetas = [{
 },{
     nome: 'Dagobah',
     id: '4',
-    population: 'unknown',
+    populacao: 'unknown',
     clima: 'murky',
     terreno: 'swamp / jungles', 
     filmes: '2 / 6 / 3',
@@ -35,7 +35,7 @@ Planetas = [{
 },{
     nome: 'Bespin',
     id: '5',
-    population: '118000',
+    populacao: '118000',
     clima: 'temperate',
     terreno: 'gas giant', 
     filmes: '2',
@@ -43,7 +43,7 @@ Planetas = [{
 },{
     nome: 'Endor',
     id: '6',
-    population: '3000000',
+    populacao: '3000000',
     clima: 'temperate',
     terreno: 'florest / mountains / lakes', 
     filmes: '3',
@@ -51,7 +51,7 @@ Planetas = [{
 },{
     nome: 'Naboo',
     id: '7',
-    population: '450000000',
+    populacao: '450000000',
     clima: 'temperate',
     terreno: 'glassy hills / swamps / florests / mountains', 
     filmes: '5 / 4 / 6 / 3',
@@ -59,7 +59,7 @@ Planetas = [{
 },{ 
     nome: 'Coruscant',
     id: '8',
-    population: '1000000000000',
+    populacao: '1000000000000',
     clima: 'temperate',
     terreno: 'cityscape / mountains', 
     filmes: '5 / 4 / 6 / 3',
@@ -67,7 +67,7 @@ Planetas = [{
 },{
     nome: 'Kamino',
     id: '9',
-    population: '10000000',
+    populacao: '10000000',
     clima: 'temperate',
     terreno: 'ocean', 
     filmes: '5',
@@ -75,7 +75,7 @@ Planetas = [{
 },{
     nome: 'Mustafar',
     id: '10',
-    population: '20000',
+    populacao: '20000',
     clima: 'hot',
     terreno: 'volcanoes / lava rivers / mountains / caves', 
     filmes: '6',
@@ -83,7 +83,7 @@ Planetas = [{
 },{
     nome: 'Utapau',
     id: '11',
-    population: '95000000',
+    populacao: '95000000',
     clima: 'temperate / arid / windy',
     terreno: 'scrublands / savanna / canyons / sinkholes', 
     filmes: '6',
@@ -100,10 +100,17 @@ function criarRandom(){
     aleatorio= Math.floor(Math.random()*11);  /*--criando aleatório--*/
     planetaAleatorio = Planetas[aleatorio];
     alert(planetaAleatorio['nome']);
-//location.href="planetainfo.html";
-    
 }
 
+
+var botaoInfo = document.querySelector('.infoPlanetas');
+botaoInfo.addEventListener('click', mostrarInfo)
+  function mostrarInfo(){
+    document.getElementById('nome').innerHTML = Planetas.find[11],[nome];
+    document.getElementById('clima').innerHTML = Planetas.find[clima];
+    document.getElementById('terreno').innerHTML = Planetas.find[terreno];
+    document.getElementById('filmes').innerHTML = Planetas.find[filmes];
+}
 
 
  /*function inforPlanetas(){
