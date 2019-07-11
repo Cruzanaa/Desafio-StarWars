@@ -99,10 +99,11 @@ botaoRandom.addEventListener('click', criarRandom);
 function criarRandom(){
     aleatorio= Math.floor(Math.random()*11);  /*--criando aleatório--*/
     planetaAleatorio = Planetas[aleatorio];
-    alert(planetaAleatorio['nomes']);
-   //s location.href="planetainfo.html";
+    alert(planetaAleatorio['nome']);
+//location.href="planetainfo.html";
     
 }
+
 
 
  /*function inforPlanetas(){
