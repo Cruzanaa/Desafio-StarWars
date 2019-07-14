@@ -186,7 +186,6 @@ botaoInfo.addEventListener('click', mostrarInfo);
       document.getElementById('clima').innerHTML = planetaAleatorio.clima;
       document.getElementById('terreno').innerHTML = planetaAleatorio.terreno;
       document.getElementById('filmes').innerHTML = planetaAleatorio.filmes;
-      //document.getElementById('imgPlaneta').innerHTML = planetaAleatorio.imagem;
       document.getElementById('imgPlaneta').style.backgroundImage = planetaAleatorio.imagem;
     
     }
