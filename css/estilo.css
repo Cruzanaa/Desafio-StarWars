@@ -35,6 +35,7 @@ p{
 .planetas{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10vh;
 }
 .planeta{
     width: 140px;
@@ -65,11 +66,10 @@ p{
     display: flex;
     justify-content: center;
 }
-#BotaoRandom{
-    margin-top: 30vh;
-}
 .BotaoPlaneta{
     border: 0;
+    margin-top: 7vh;
+    margin-bottom: 15vh;
     border-radius: 50px;
     background: white;
     padding: 20px;
